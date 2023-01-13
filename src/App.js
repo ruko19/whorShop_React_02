@@ -1,21 +1,9 @@
-
-
-import Header from './components/Header';
-import MainNav from './components/MainNav';
-import MainTop from './components/MainTop';
-import MainBot from './components/MainBot';
-import Footer from './components/Footer';
-
-
+import React from "react";
+import LandingPages from "./page/LandingPages";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <MainTop />
-      <MainNav />
-      <MainBot />
-      <Footer />
-
+        <LandingPages />
     </div>
   );
 }
