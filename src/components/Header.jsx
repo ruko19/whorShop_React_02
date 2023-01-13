@@ -2,8 +2,7 @@ import React from "react";
 import "../styles/Header.css"
 import IMGLogo from "../assets/icons/logo.svg"
 import background from "../assets/img/desktop/image-hero.jpg"
-
-export const items = ["about", "carrers", "events", "products", "support"];
+import {items} from '../utils/Data';
 
 function Header() {
     return (

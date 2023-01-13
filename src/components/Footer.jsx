@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Footer.css"
 import IMGLogo from "../assets/icons/logo.svg"
-import { items } from "./Header";
+import { items } from "../utils/Data";
 import icon1 from "../assets/icons/icon-facebook.svg"
 import icon2 from "../assets/icons/icon-instagram.svg"
 import icon3 from "../assets/icons/icon-pinterest.svg"
