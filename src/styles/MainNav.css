@@ -1,0 +1,20 @@
+.mainNav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.mainNav-container h3 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.mainNav-container button {
+    border: none;
+    letter-spacing: 5px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+
+}

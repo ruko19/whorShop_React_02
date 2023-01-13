@@ -1,0 +1,32 @@
+footer {
+    width: 100%;
+    background-color: black;
+    padding: 40px;
+    margin-top: 80px;
+    color: #fff;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.icons_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icons_container img {
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
