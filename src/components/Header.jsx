@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Header.css"
 import IMGLogo from "../assets/icons/logo.svg"
 import background from "../assets/img/desktop/image-hero.jpg"
-import {items} from '../utils/Data';
+import { items } from '../utils/Data';
 function Header() {
     return (
 
@@ -21,7 +21,7 @@ function Header() {
                                 items.map(item => (
                                     <li key={item} className="nav-item">
 
-                                        <a className="items_container nav-link active" aria-current="page" href="#">{item}</a>
+                                        <span className="items_container nav-link active" >{item}</span>
                                     </li>
                                 ))
                             }
