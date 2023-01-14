@@ -15,7 +15,6 @@ function App() {
       <MainNav />
       <MainBot />
       <Footer />
-
     </div>
   );
 }
