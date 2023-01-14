@@ -8,6 +8,7 @@ import icon3 from "../assets/icons/icon-pinterest.svg"
 import icon4 from "../assets/icons/icon-twitter.svg"
 
 function Footer() {
+    const newLocal = "icons_container";
     return (
         <footer >
             <div className="footer_container container">
@@ -20,7 +21,7 @@ function Footer() {
                             items.map(item => (
                                 <li key={item} className="nav-item">
 
-                                    <a className="items_container nav-link active" aria-current="page" href="#">{item}</a>
+                                    <span className="items_container nav-link active">{item}</span>
                                 </li>
                             ))
                         }
@@ -29,7 +30,7 @@ function Footer() {
 
                 </div>
                 <div className="footer_right">
-                    <div className="icons_container">
+                    <div className={newLocal}>
                         <img src={icon1} alt="" />
                         <img src={icon2} alt="" />
                         <img src={icon3} alt="" />
